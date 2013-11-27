@@ -31,7 +31,7 @@ markdown to html converter with bash as templating language, written in 100% pur
 
     cat bashdown/example.md | markdown | bashdown > example.html
 
-That will turn [this](https://github.com/coderofsalvation/bashdown/blob/master/example.md) into [this](https://github.com/coderofsalvation/bashdown/blob/master/example.html).
+That will turn [this](https://raw.github.com/coderofsalvation/bashdown/master/example.md) into [this](https://github.com/coderofsalvation/bashdown/blob/master/example.html).
 
 ### Note ###
 
