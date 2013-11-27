@@ -27,9 +27,11 @@ markdown to html converter with bash as templating language, written in 100% pur
     cp markdown.bash/markdown.sh ~/bin/markdown
     cp bashdown/bashdown ~/bin/.
 
+### Usage ###
+
     cat bashdown/example.md | markdown | bashdown > example.html
 
-That will turn this into this.
+That will turn [this](https://github.com/coderofsalvation/bashdown/blob/master/example.md) into [this](https://github.com/coderofsalvation/bashdown/blob/master/example.html).
 
 ### Note ###
 
