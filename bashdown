@@ -1,0 +1,14 @@
+#!/bin/bash 
+#
+# Simple powerfull bash template engine (aka macgyver-style smarty) 
+#
+ 
+fetch(){
+  IFS=''; cat - | while read line; do 
+    line="$(eval "echo \"$( echo "$line" | sed 's/"/\\"/g')\"")"; # process bash in snippet
+    echo "$line"
+  done
+}
+ 
+# fetch it!
+cat - | fetch 
