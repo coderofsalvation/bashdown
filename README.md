@@ -9,7 +9,7 @@ markdown to html converter with bash as templating language, written in 100% pur
 
 That will turn [this](https://raw.github.com/coderofsalvation/bashdown/master/example/example.md) into :
 
-<img src="https://raw.github.com/coderofsalvation/bashdown/master/example/example.png"/>
+<img src="https://raw.github.com/coderofsalvation/bashdown/master/example/example.png" style="border:1px solid #CCC"/>
 
 ### why ###
 
