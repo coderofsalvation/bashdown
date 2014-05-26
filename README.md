@@ -5,7 +5,7 @@ markdown to html converter with bash as templating language, written in 100% pur
 
 ### Usage ###
 
-    cat bashdown/example.md | markdown | bashdown > example.html
+    cat bashdown/example.md | bashdown | markdown > example.html
 
 That will turn [this](https://raw.github.com/coderofsalvation/bashdown/master/example/example.md) into :
 
