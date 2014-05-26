@@ -1,0 +1,8 @@
+#!/bin/bash 
+[[ ! -n "$1" ]] && { echo "usage: $0 <file.md> > out.html"; exit; }
+
+export NAME="foo"
+
+echo "<style type='text/css'>$(cat example.css)</style>"
+cat "$1" | bashdown | markdown
+

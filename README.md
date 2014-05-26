@@ -35,6 +35,14 @@ CREDITS: the amazingly portable markdown bashconverter was written by [Chad](htt
     cp markdown.bash/markdown.sh ~/bin/markdown
     cp bashdown/bashdown ~/bin/.
 
+### Example
+
+In the 'example' directory you can see a simple wrapper which turns an markdown document into a nice styled html-document like so:
+  
+    ./mybashdown example.md > example.html
+
+see the output [here](https://raw.githubusercontent.com/coderofsalvation/bashdown/master/example/example.html)
+
 ### Note ###
 
 Put this in ~/.profile so you always have handson-access to your bashscripts in ~/bin:
