@@ -25,8 +25,6 @@ That will turn [this](https://raw.github.com/coderofsalvation/bashdown/master/ex
 * everybody uses bash
 * its installed everywhere
 
-CREDITS: the amazingly portable markdown bashconverter was written by [Chad](https://github.com/chadbraunduin) 
-
 ### requirements ###
 
 * BASH!
