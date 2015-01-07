@@ -3,9 +3,13 @@ bashdown
 
 markdown to html converter with bash as templating language, written in 100% pure bash, macgyver-style documentation generator
 
-### Usage ###
+### Usage
 
-    cat bashdown/example.md | bashdown | markdown > example.html
+    $ cat foo.md | bashdown
+    (produces markdown with evaluated values)
+
+    $ cat foo.md | bashdown --html
+    (evaluates template and produces html)
 
 That will turn [this](https://raw.github.com/coderofsalvation/bashdown/master/example/example.md) into :
 
@@ -37,8 +41,9 @@ CREDITS: the amazingly portable markdown bashconverter was written by [Chad](htt
     cp markdown.bash/markdown.sh ~/bin/markdown
     cp bashdown/bashdown ~/bin/.
 
-### Example
+### Custom Markdown Chain
 
+The '--html' makes usage of github's markdown processor, but you can use your own.
 In the 'example' directory you can see a simple wrapper which turns an markdown document into a nice styled html-document like so:
   
     ./mybashdown example.md > example.html
